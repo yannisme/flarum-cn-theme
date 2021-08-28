@@ -19,7 +19,7 @@ composer require yannisme/cntheme
 ### Updating
 
 ```
-composer update yannisme/cntheme
+composer require yannisme/cntheme
 php flarum cache:clear
 ```
 
