@@ -29,7 +29,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "FlarumCN Theme",
+            "title": "FlarumCN",
             "category": "theme",
             "icon": {
                 "name": "fas fa-star-half-alt",
