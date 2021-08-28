@@ -5,7 +5,7 @@ A Flarum Theme. FlarumCN Theme , Timeline post style.
 There may be some bugs. If you find it, please remind me, and I will fix it in time!
 
 ### Demo
-[click2see](https://discuss.flarum.org.cn/)
+[click2see](https://discuss.yannisme.com/)
 
 ### Installation
 **Default color：**`#276bb0`,`#6699cc`
@@ -27,5 +27,14 @@ php flarum cache:clear
 
 - [Github](https://github.com/yannisme/flarum-cn-theme)
 - [Packagist](https://packagist.org/packages/yannisme/cntheme)
-- [Discuss](https://discuss.flarum.org.cn)
+- [Discuss](https://discuss.yannisme.com/d/26-flarum)
 
+![image.png](https://i.loli.net/2021/08/28/8JEWlhosDvwVgTN.png) ![image.png](https://i.loli.net/2021/08/28/RIwxEYJqOWVovzu.png)
+![image.png](https://i.loli.net/2021/08/28/J6auMHWLRvS4gtQ.png)
+![image.png](https://i.loli.net/2021/08/28/zJVcKARFnMQOaX9.png)
+![image.png](https://i.loli.net/2021/08/28/NAfBEGdJXOyxZ96.png)
+![image.png](https://i.loli.net/2021/08/28/3y7UiuGndW1mkRI.png)
+![image.png](https://i.loli.net/2021/08/28/fwjWvMNLrkEuaKT.png)
+![image.png](https://i.loli.net/2021/08/28/pRljuPW4CZXadh6.png)
+![image.png](https://i.loli.net/2021/08/28/vnDSHFVodOkgpYq.png)
+![image.png](https://i.loli.net/2021/08/28/nKYSFV1U93NDeiQ.png)
