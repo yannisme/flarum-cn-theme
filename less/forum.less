@@ -1,12 +1,13 @@
 ::-webkit-scrollbar{width:5px;height:10px}
 ::-webkit-scrollbar-thumb{background:@config-primary-color}
 ::-webkit-scrollbar-track{background:@config-secondary-color}
+h3.DiscussionListItem-title{white-space:nowrap}
 .IndexPage .DiscussionListItem-title,.UserPage .DiscussionListItem-title{margin-right:155px;font-size:18px}
 .IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{-webkit-mask-image:none!important;margin-top:-1px;float:right;padding-right:unset!important}
 .DiscussionListItem{border-bottom:1px solid rgba(0,0,0,.0625)}
 .DiscussionListItem-author{display:none}
 .DiscussionPage-list .DiscussionListItem-content{padding-left:8px;padding-right:15px}
-.DiscussionListItem-content{padding-left:5px;padding-right:5px}
+.DiscussionListItem-content{padding-left:5px;padding-right:10px}
 .IndexPage span.username:before{content:'\0040'}
 .DiscussionHero-items{text-align:left}
 .DiscussionListItem-badges{float:right}
@@ -54,8 +55,7 @@ i.icon.fas.fa-times{display:inline-block}
 .Post--BestAnswer{z-index:999}
 .SettingsPage legend{float:unset}
 .UserPage .SettingsPage .Button--primary.active,.UserPage .SettingsPage .Button--primary:active,.UserPage .SettingsPage .Button:focus,.UserPage .SettingsPage .Button:hover,.UserPage .SettingsPage .open>.Dropdown-toggle.Button,.UserPage .SettingsPage .open>.Dropdown-toggle.Button--primary{background:@config-primary-color!important}
-.DiscussionListItem{position:relative;margin-right:0;padding-right:45px;padding-left:15px;margin-left:0;border-radius:4px;transition:background .2s}
-.IndexPage i.icon.fas.fa-ellipsis-v.Button-icon{margin-left:-160px}
+.DiscussionListItem{position:relative;margin-right:0;padding-right:5px;padding-left:5px;margin-left:0;border-radius:4px;transition:background .2s}
 .Badge,.Post-header .Badge,.darkenBackground .Badge{background:unset!important}
 .DiscussionListItem-count{margin-right:0}
 .DiscussionPage-list .DiscussionListItem-count,.UserPage .DiscussionListItem-count{display:none}
@@ -84,7 +84,7 @@ article.EventPost.DiscussionLockedPost,article.EventPost.DiscussionStickiedPost.
 .ReplyPlaceholder{margin-top:0!important;border-top:1px solid @control-bg}
 .PostStream-item[data-index="0"]::after{content:'';height:200px;width:95%;background-color:@body-bg;position:absolute;top:0;left:2em;z-index:-1}
 .Post-header>ul>li{margin-top:-1px}
-.IndexPage li.item-discussion-views{margin-right:-47px!important}
+.IndexPage li.item-discussion-views{margin-right:-42px!important}
 .Post-body pre{margin:10px -10px}
 .Post-body blockquote{border-top:2px solid @control-bg;border-bottom:2px solid @control-bg;margin:1em -10px;border-radius:0}
 div.EventPost-info{margin-top:10px}
@@ -94,7 +94,12 @@ div.EventPost-info{margin-top:10px}
 .Post-footer .item-bestAnswerPost .CommentPost .Post-header>ul{border-radius:unset!important}
 .Post--BestAnswer{position:inherit!important;background:unset!important;color:@link-color!important}
 .Post--BestAnswer .BestAnswer--User{display:none!important}
-@media (max-width:767px){
+@media (max-width:1024px){.AfruxWidgets-sideNavAlt{display:none}
+}
+@media (min-width:992px){.sideNav,.sideNav>ul{width:auto}
+.sideNav{margin-right:35px}
+}
+@media (max-width:767px){.item-discussion-views{display:none!important}
 .UserPage .DiscussionListItem-title{margin-right:auto}
 .Post{padding:20px!important}
 .IndexPage .DiscussionListItem-badges,.IndexPage .DiscussionListItem-count{display:none}
@@ -105,3 +110,10 @@ div.EventPost-info{margin-top:10px}
 .IndexPage li.item-discussion-views{margin-right:unset!important}
 .item-discussion-views{color:#667c99;border-radius:4px;padding:0 5px;font-size:12px;position:absolute;right:24px!important;bottom:35px;top:unset!important;width:auto;background:@control-bg!important}
 }
+@media (min-width:768px){.IndexPage .DiscussionListItem-title{margin-right:225px!important}
+}
+.social-settings>.fa-cog{width:20px!important}
+.DiscussionListItem-info .item-excerpt{margin-top:0!important;margin-right:70px!important}
+.DiscussionListItem-controls .Dropdown-toggle{display:contents}
+.DiscussionList--searchResults .DiscussionListItem-badges .Badge{display:none}
+.IndexPage-toolbar-action{float:unset}
