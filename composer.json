@@ -29,10 +29,10 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "FlarumCN",
+            "title": "中文社区",
             "category": "theme",
             "icon": {
-                "name": "fas fa-star-half-alt",
+                "name": "fab fa-yandex-international",
                 "backgroundColor": "#de350b",
                 "color": "#FFF"
             }
